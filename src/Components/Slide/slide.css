@@ -1,0 +1,83 @@
+.divSlide {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.this-opacity{
+    padding-top: 49%;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(19, 41, 61, 0.9);
+    position: absolute;
+    z-index: 1;
+}
+
+.carouselItem {
+    padding-top: 49%;
+    width: 100%;
+    min-height: 600px;
+    background-size: 100% 100%;
+}
+
+.carouselItem:nth-of-type(1) {
+    background-image: url(../../Images/slide-1.jpg);
+}
+
+.carouselItem:nth-of-type(2) {
+    background-image: url(../../Images/slide-2.jpg);
+}
+.carouselItem:nth-of-type(3) {
+    background-image: url(../../Images/slide-3.jpg);
+}
+
+.this-text {
+    margin-top: 800px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    max-width: 50%; 
+    min-height: 40%; 
+    transform: translateX(-13%);
+    padding: 10px;
+}
+
+.this-text h3 {
+    text-align:left;
+    font-size: 53px;
+    font-weight: 500;
+}
+
+.this-text p {
+    text-align:left;
+    font-size: 23px;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+.slide-btn {
+    background-color: #006494;
+    width: 250px;
+    height: 60px;
+    border-radius:40px;
+    margin-top: 60px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+  }
+  
+.slide-btn:hover {
+    background-color: #13293d;
+    transition: 1s;
+}
+  
+.slide-btn p {
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 300;
+}
