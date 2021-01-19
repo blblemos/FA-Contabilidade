@@ -1,6 +1,7 @@
 {
   "name": "fabricio-contabilidade",
   "version": "0.1.0",
+  "homepage": "http://fabriciosodre.com.br/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -12,6 +13,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "@types/react-slick": "^0.23.4",
     "@types/styled-components": "^5.1.7",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.3",
@@ -20,12 +22,11 @@
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
-    "react-id-swiper": "^4.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-slick": "^0.27.14",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
-    "swiper": "^6.4.5",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
