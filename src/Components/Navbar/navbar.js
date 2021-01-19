@@ -35,19 +35,19 @@ const Navbar = () => {
             <FaIcons.FaBars className="this-icon" onClick={showSidebar} />
         </Link>
         <nav className="this-nav-menu">
-          <Link className="this-navLink" to='/about' activeStyle>
-            Sobre Nós
-          </Link>
           <Link className="this-navLink" to='/services' activeStyle>
             Serviços
+          </Link>
+          <Link className="this-navLink" to='/about' activeStyle>
+            Sobre Nós
           </Link>
           <Link className="this-navLink" to='/news' activeStyle>
             Notícias
           </Link>
-          <a href='https://onvio.com.br/#/'>Portal do Cliente</a>
           <Link className="this-navLink" to='/contact' activeStyle>
             Contato
           </Link>
+          <a href='https://onvio.com.br/#/'>Portal do Cliente</a>
         </nav>
       </nav>
 

@@ -1,0 +1,11 @@
+.this-title-header {
+    font-size: 40px;
+    font-weight: 300;
+    color: #e8f1f2;
+    position: absolute;
+    top: calc(40% - 70px);
+    left: 10%;
+    z-index: 4;
+    width: 90%;
+    height: 70px;
+}

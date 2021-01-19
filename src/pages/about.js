@@ -1,17 +1,12 @@
 import React from 'react';
+import ThisHeader from '../Components/Header/header';
+import './pages-CSS/titleHeader.css';
 
 const About = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh',
-        background: 'red',
-      }}
-    >
-      <h1>About</h1>
+    <div>
+      <ThisHeader/>
+      <div className="this-title-header">Sobre Nós</div>
     </div>
   );
 };

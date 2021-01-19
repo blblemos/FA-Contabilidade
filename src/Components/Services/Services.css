@@ -1,0 +1,122 @@
+.this-container-services {
+  background-color: #e8f1f2;
+  width: 100%;
+  padding-top: 50%;
+  position: relative;
+  padding: 4%;
+}
+
+.this-services-title {
+  width: 300px;
+  border-bottom: 1px solid #13293d;
+  font-size: 46px;
+  font-weight: 100;
+  color: #13293d;
+  text-align: center;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+.this-container-for-4 {
+  width: 90%;
+  min-width: 900px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  position: relative;
+  margin: 60px auto;
+}
+
+.this-services-content {
+  width: 25%;
+  min-width: 200px;
+  padding-top: 17%;
+  min-height: 150px;
+  background-color:transparent;
+  border: 1px solid #13293d;
+  margin-left: 80px;
+  position: relative;
+  transition: 500ms;
+
+  -webkit-box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
+  -moz-box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
+  box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
+}
+
+.this-services-content:hover {
+  background-color: #13293d;
+  border: 1px solid #e8f1f2;
+  transition: 500ms;
+}
+
+.this-services-content:hover .this-services-icon{
+  transition: 500ms;
+  display: none;
+}
+
+.this-services-content:hover .this-services-icon-more{
+  transition: 500ms;
+  display: block;
+}
+
+.this-services-content:hover h3 {
+  transition: 500ms;
+  display: none;
+}
+
+.this-services-content:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.this-services-icon {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 56px;
+  color: #13293d;
+  transition: 500ms;
+}
+
+.this-services-content h3 {
+  font-size: 16px;
+  min-width: 200px;
+  font-weight: 300;
+  color: #13293d;
+  position: absolute;
+  top: calc(30% + 66px);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  transition: 500ms;
+}
+
+.this-services-content p {
+  display: none;
+  color: #e8f1f2;
+  font-size: 14px;
+  min-width: 200px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+  transition: 500ms;
+}
+
+.this-services-content:hover p {
+  transition: 500ms;
+  display: block;
+}
+
+.this-services-icon-more {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 56px;
+  color: #e8f1f2;
+  transition: 500ms;
+  display: none;
+}

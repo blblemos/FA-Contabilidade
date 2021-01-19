@@ -1,0 +1,107 @@
+.this-page-services-container {
+  width: 100%;
+  height: 100%;
+  max-width: 2000px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.this-page-services-container-content {
+  width: 100%;
+  padding: 4%;
+  background-color: #e8f1f2;
+  position: relative;
+  top: 40%;
+}
+
+.this-page-services-contents {
+  width:87%;
+  background-color: #e8f1f2;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 2700px;
+  position: relative;
+}
+
+.this-page-services-content {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  margin-top: 100px;
+}
+
+.this-page-services-img {
+  background-image: url(../../Images/contabilidade.jpg);
+  background-size: 100% 100%;
+  width: 25%;
+  height: 100%;
+  border-radius: 25%;
+}
+
+.this-page-services-content:nth-of-type(1){
+  margin-top: 0;
+}
+
+.services-img-2 {
+  background-image: url(../../Images/abertura\ de\ empresa.png);
+}
+
+.services-img-3 {
+  background-image: url(../../Images/fiscal.jpg);
+}
+
+.services-img-4 {
+  background-image: url(../../Images/financeiro.jpg);
+}
+
+.services-img-5 {
+  background-image: url(../../Images/departamento\ de\ rh.jpg);
+}
+
+.services-img-6 {
+  background-image: url(../../Images/societario.jpg);
+}
+
+.services-img-7 {
+  background-image: url(../../Images/recuperação\ de\ credito.jpg);
+}
+
+.this-page-services-content:nth-of-type(2),
+.this-page-services-content:nth-of-type(4),
+.this-page-services-content:nth-of-type(6) {
+  flex-direction: row-reverse;
+} 
+
+.this-page-services-text {
+  width: 75%;
+  height: 100%;
+  padding: 4%;
+  text-align: left;
+  position: relative;
+}  
+
+.this-page-services-text h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #13293d;
+  border-bottom: 2px solid #13293d;
+  position: relative;
+  top: -40px;
+  margin-bottom: 15px;
+}
+
+.this-page-services-text p {
+  position: relative;
+  top: calc(50% - 20px);
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  color: #13293d;
+  font-size: 18px;
+  font-weight: 100;
+}

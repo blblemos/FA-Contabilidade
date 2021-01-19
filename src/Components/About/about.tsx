@@ -25,10 +25,8 @@ const About = () => {
                             Praesent faucibus et tortor sed laoreet. Suspendisse tincidunt et risus vitae eleifend. Suspendisse enim 
                             lacus, scelerisque sit amet est non, lobortis faucibus erat. Fusce eu orci a justo rhoncus bibendum. 
                             Aliquam viverra egestas dui id vehicula. Vivamus vestibulum tortor felis, id lacinia nibh porta sed. 
-                            Fusce ac ultricies justo. Cras vitae ante nunc. Nunc nec dui mattis, congue ante in, elementum tortor. 
-                            Donec ultricies, ante ac laoreet pretium, sem turpis semper neque, ac ultrices nibh justo id lacus. 
-                            Nulla suscipit elit sem. Sed elit nulla, bibendum nec lorem vel, pulvinar placerat magna. Duis consectetur 
-                            interdum justo, vel.</p>
+                            Fusce ac ultricies justo. Cras vitae ante nunc. Nunc nec dui mattis, congue ante in, elementum tortor.  
+                            </p>
                     </div>
                     <div className="about-btn"><p>Saiba Mais</p></div>
                 </div>

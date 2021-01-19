@@ -1,0 +1,27 @@
+.this-container-header {
+  width: 100%;
+  max-width: 2000px;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:  rgba(19,41,61,0.9);
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.this-header-img {
+  width: 100%;
+  max-width: 2000px;
+  height: calc(40% );
+  background-image: url(../../Images/slide-3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
