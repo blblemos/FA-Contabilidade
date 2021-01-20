@@ -18,7 +18,7 @@
 }
 
 .this-container-for-4 {
-  width: 90%;
+  width: 80%;
   min-width: 900px;
   display: flex;
   flex-wrap: nowrap;
@@ -54,7 +54,7 @@
   display: none;
 }
 
-.this-services-content:hover .this-services-icon-more{
+.this-services-content:hover .this-services-icon-more {
   transition: 500ms;
   display: block;
 }
@@ -103,6 +103,7 @@
   transform: translate(-50% , -50%);
   text-align: center;
   transition: 500ms;
+  padding: 10px;
 }
 
 .this-services-content:hover p {
@@ -112,11 +113,12 @@
 
 .this-services-icon-more {
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   font-size: 56px;
   color: #e8f1f2;
   transition: 500ms;
   display: none;
 }
+

@@ -12,7 +12,7 @@ nav.this-navbar {
   max-width: 2000px;
   left: 50%;
   transform: translateX(-50%);
-  transition: 2s;
+  transition: 1s;
 }
 
 Nav.this-actived {
@@ -21,7 +21,6 @@ Nav.this-actived {
 }
 
 .this-navLink,
-.this-nav-menu a,
 .this-navbar-toggle a{
   text-decoration: none;
   color: #fff;
@@ -32,6 +31,7 @@ Nav.this-actived {
   height: 100%;
   cursor: pointer;
   font-size: 18px;
+  transition: 500ms;
 }
 
 .this-navLink.active {
@@ -39,12 +39,42 @@ Nav.this-actived {
 }
 
 .this-nav-menu a:hover {
+  color: #fff;
   text-decoration: none;
-  border-bottom: 2px solid #1b98e0;
+  border-bottom: 1px solid #1b98e0;
+  transition: 850ms;
+}
+
+.this-navLink-btn {
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  font-size: 18px;
+  transition: 500ms;
+  margin-top: 20px;
+}
+
+.this-navLink-btn-2 {
+  width: 206px;
+  margin-left: 10px;
+}
+
+.this-navLink-btn:hover {
+  border: 2px solid #1b98e0;
+  transition: 500ms;
+  color: #1b98e0 !important;
 }
 
 .this-img{
-  z-index: 999;
+  z-index: 9;
   margin-top: 3px;
   margin-bottom: 2px;
   width: 300px;
@@ -144,6 +174,7 @@ Nav.this-actived {
 .this-nav-text a:hover {
   text-decoration: none;
   border-bottom: 2px solid #1b98e0;
+  transition: 500ms;
 }
 
 .this-menu-bars {

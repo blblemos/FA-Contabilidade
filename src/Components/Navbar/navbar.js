@@ -47,7 +47,8 @@ const Navbar = () => {
           <Link className="this-navLink" to='/contact' activeStyle>
             Contato
           </Link>
-          <a href='https://onvio.com.br/#/'>Portal do Cliente</a>
+          <a href='https://onvio.com.br/#/' className="this-navLink-btn">Portal do Cliente</a>
+          <a href='https://onvio.com.br/#/' className="this-navLink-btn this-navLink-btn-2">Portal do Empregado</a>
         </nav>
       </nav>
 

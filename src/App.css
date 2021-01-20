@@ -12,7 +12,29 @@
   max-width: 2000px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e8f1f2;
+  border-radius: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #13293d;
+  border-radius: 4px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #006494; 
 }
 
 
