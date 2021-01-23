@@ -1,0 +1,127 @@
+.this-page-news-container {
+  width: 100%;
+  max-width: 2000px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.this-page-news-container-content {
+  width: 100%;
+  padding: 4%;
+  background-color: #e8f1f2;
+  position: relative;
+}
+
+.this-page-news-contents {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.this-page-news-content {
+  width: 33%;
+  height: 500px;
+  position: relative;
+  margin-left: 5% ;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
+  -moz-box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
+  box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
+}
+
+.this-page-news-content:first-of-type {
+  margin-left: 0 ;
+}
+
+.this-page-news-content img {
+  width: 100%;
+  height: 40%;
+}
+
+.this-page-news-data {
+  width: 20%;
+  min-width: 130px;
+  background-color: rgba(19, 41, 61, 0.9);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  color: #e8f1f2;
+  border-radius: 0 0 20px 0;
+  position: relative;
+  top: -40%;
+}
+
+.this-page-news-data h3 , h2{
+  margin: 0 auto;
+  line-height: 40px;
+  font-weight: 100;
+}
+
+.this-page-news-content-title {
+  position: relative;
+  top: -50px;
+  height: 20%;
+  padding: 10px 5px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #13293d;
+  text-align: center;
+  overflow: hidden;
+}
+
+.this-page-news-content-text {
+  padding: 2% 15px;
+  position: relative;
+  height: 30%;
+  top: -50px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #13293d;
+  text-align: left;
+  overflow: hidden;
+}
+
+.this-page-news-content-footer {
+  display: flex;
+  position: relative;
+  height: 10%;
+  top: -50px;
+  margin-bottom: 10px;
+  vertical-align: bottom;
+  width: 100%;
+  padding: 5px 2%;
+  justify-content: flex-end;
+}
+
+.this-page-news-content-footer a {
+  text-decoration: none;
+}
+
+.this-page-news-content-footer a:hover {
+  color: #e8f1f2;
+}
+
+.this-page-news-content-btn {
+  position: relative;
+  top: 0;
+  width: 180px;
+  height: 40px;
+  background-color: #13293d;
+  color: #e8f1f2;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.this-page-news-content-btn:hover {
+  background-color: #247ba0;
+  transition: 1s;
+}

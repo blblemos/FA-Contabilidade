@@ -79,7 +79,7 @@
 }
 
 .this-services-content h3 {
-  font-size: 16px;
+  font-size: 15px;
   min-width: 200px;
   font-weight: 300;
   color: #13293d;
@@ -122,3 +122,17 @@
   display: none;
 }
 
+@media screen and (max-width: 1320px) {
+  .this-container-for-4 {
+    
+  }
+
+  .this-services-content {
+    min-width: 190px;
+  }
+
+  .this-services-content h3 {
+    font-size: 14px;
+    min-width: 190px;
+  }
+}

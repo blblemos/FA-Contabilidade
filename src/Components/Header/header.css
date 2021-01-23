@@ -1,8 +1,8 @@
 .this-container-header {
   width: 100%;
   max-width: 2000px;
-  height: 40%;
-  position: absolute;
+  height: 250px;
+  position: relative;
   top: 0;
   left: 0;
   background-color:  rgba(19,41,61,0.9);
@@ -14,7 +14,7 @@
 .this-header-img {
   width: 100%;
   max-width: 2000px;
-  height: calc(40% );
+  height: 250px;
   background-image: url(../../Images/slide-3.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;

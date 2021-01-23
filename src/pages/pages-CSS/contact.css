@@ -1,0 +1,120 @@
+.this-page-contact-container {
+  width: 100%;
+  max-width: 2000px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.this-page-contact-container-content {
+  width: 100%;
+  padding: 4%;
+  background-color: #e8f1f2;
+  position: relative;
+}
+
+.this-page-contact-contents {
+  width: 90%;
+  background-color: #e8f1f2;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 630px;
+  position: relative;
+}
+
+.this-page-contact-form {
+  width: 40%;
+  padding: 6% 2%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.this-page-contact-form-content {
+  width: 100%;
+  height: 10%;
+  margin-top: 30px;
+  position: relative;
+}
+
+.this-page-contact-form-content:first-of-type {
+  margin-top: 0;
+}
+
+.this-page-contact-form-label {
+  background-color: #e8f1f2;
+  color: #13293d;
+  font-weight: 300;
+  font-size: 15px;
+  position: absolute;
+  left: 5%;
+  top: -13px;
+  padding: 0 10px;
+  z-index: 4;
+  border-radius: 10px;
+}
+
+.this-page-contact-form-imput {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 25px;
+  font-weight: 300;
+  font-size: 20px;
+  border: 2px solid #13293d;
+  vertical-align: middle;
+  background-color: #e8f1f2;
+  color: #13293d;
+  resize: none;
+}
+
+.this-page-contact-form-imput:focus {
+  outline: none;
+  background-color: #e8f1f2;
+}
+
+.this-form-imput-error {
+  border: 2px solid red;
+}
+
+.this-form-textarea {
+  height: 40%;
+}
+
+.this-page-contact-form-btn {
+  position: relative;
+  left: 50%;
+  padding: 2% 6%;
+  background-color: #13293d;
+  color: #e8f1f2;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border: none;
+}
+
+.this-page-contact-form-btn:focus {
+  outline: none;
+}
+
+.this-page-contact-form-btn:hover {
+  background-color: #13293df5
+}
+
+.this-page-contact-map {
+  width: 58%;
+  margin-left: 2%;
+  height: 550px;
+  border-radius: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: black;
+  overflow: hidden;
+  border: 2px solid #13293d;
+}

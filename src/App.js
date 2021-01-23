@@ -7,6 +7,7 @@ import About from './pages/about';
 import ServicesPage from './pages/services';
 import Contact from './pages/contact';
 import News from './pages/news';
+import OneNews from './pages/One-News/one-news.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/services' component={ServicesPage} />
         <Route path='/contact' component={Contact} />
         <Route path='/news' component={News} />
+        <Route path='/COMO MANTER A SEGURANÇA DURANTE A VOLTA DOS COLABORADORES AO AMBIENTE DE TRABALHO' component={OneNews} />
       </Switch>
     </Router>
   );

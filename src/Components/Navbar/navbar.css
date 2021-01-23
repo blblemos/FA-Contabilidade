@@ -89,28 +89,9 @@ Nav.this-actived {
   color: #fff;
 }
 
-@media screen and (max-width: 1012px) {
-  .this-bars {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 40%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    height: 80%;
-  }
-}
-
 .this-nav-menu {
   display: flex;
   align-items: right;
-}
-
-@media screen and (max-width: 1012px) {
-  .this-nav-menu {
-    display: none;
-  }
 }
 
 .this-nav-menu-mobile {
@@ -182,4 +163,20 @@ Nav.this-actived {
   font-size: 30px;
   background: none;
   width: 100%;
+}
+
+@media screen and (max-width: 1320px) {
+  .this-bars {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 40%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    height: 80%;
+  }
+  .this-nav-menu {
+    display: none;
+  }
 }

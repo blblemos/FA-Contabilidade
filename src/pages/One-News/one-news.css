@@ -1,0 +1,32 @@
+.this-page-one-news-container {
+    width: 100%;
+    max-width: 2000px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.this-page-one-news-container-content {
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #e8f1f2;
+    position: relative;
+    color: #13293d;
+}
+
+.this-page-one-news-container-content img {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.this-page-one-news-container-content a {
+    color: #13293d;
+    text-decoration: none;
+}
+
+.this-page-one-news-container-content a:hover {
+    text-decoration: none;
+}
