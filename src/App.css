@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+div-clear {
+  clear: both;
+}
+
 .this-page {
   width: 100%;
   max-width: 2000px;

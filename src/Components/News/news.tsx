@@ -24,7 +24,7 @@ const News = () =>  {
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 800,
           settings: {
             slidesToShow: 1,
             initialSlide: 2
@@ -97,9 +97,6 @@ const News = () =>  {
             </div>
           </div>
         </Slider>
-        <div className="this-container-btn">
-          <Link to='/news' className="this-morenews-btn">Mais Notícias</Link>
-        </div>
       </div>
     );
 };

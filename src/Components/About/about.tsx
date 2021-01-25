@@ -24,10 +24,12 @@ const About = () => {
                                 Praesent faucibus et tortor sed laoreet. Suspendisse tincidunt et risus vitae eleifend. Suspendisse enim 
                                 lacus, scelerisque sit amet est non, lobortis faucibus erat. Fusce eu orci a justo rhoncus bibendum. 
                                 Aliquam viverra egestas dui id vehicula. Vivamus vestibulum tortor felis, id lacinia nibh porta sed. 
-                                Fusce ac ultricies justo. Cras vitae ante nunc.   
+                                Fusce ac ultricies justo. Cras vitae ante nunc.  
+                                Aliquam viverra egestas dui id vehicula. Vivamus vestibulum tortor felis, id lacinia nibh porta sed. 
+                                Fusce ac ultricies justo. Cras vitae ante nunc.  
                                 </p>
                         </div>
-                        <Link to="/about" className="about-btn"><p>Saiba Mais</p></Link>
+                        <Link to="/about" className="this-about-btn"><p>Saiba Mais</p></Link>
                     </div>
                 </div> 
         </div>

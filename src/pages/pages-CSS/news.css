@@ -125,3 +125,34 @@
   background-color: #247ba0;
   transition: 1s;
 }
+
+@media screen and (max-width: 1300px) {
+  .this-page-news-content-title{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .this-page-news-contents {
+    flex-direction: column;
+  }
+  .this-page-news-content {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .this-page-news-content-title{
+    font-size: 19px;
+  }
+
+  .this-page-news-content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .this-page-news-content {
+    width: 100%;
+  }
+}

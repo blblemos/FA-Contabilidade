@@ -116,31 +116,4 @@
   transition: 1s;
 }
 
-.this-container-btn {
-  width: 100%;
-  margin-top: 40px;
-}
 
-.this-morenews-btn {
-  padding: 10px 30px;
-  background-color: #006494;
-  border-radius: 25px;
-  font-size: 20px;
-  font-weight: 300;
-  color: #e8f1f2;
-  position: relative;
-  left: calc(100% - 200px);
-  transition: 1s;
-  text-decoration: none;
-}
-
-.this-morenews-btn:hover {
-  background-color: #1b98e0;
-  color: #e8f1f2;
-  transition: 1s;
-}
-
-.this-container-btn a:hover {
-  text-decoration: none;
-  color: #e8f1f2;
-}

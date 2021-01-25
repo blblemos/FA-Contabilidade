@@ -59,8 +59,7 @@ const About = () => {
             </div>
             <div className="this-page-about-cards">
                   <div className="this-page-about-card">
-                    <FiTarget className="this-page-about-icon"/>
-                      <h5>Missão</h5>
+                      <h5><FiTarget className="this-page-about-icon"/> Missão</h5>
                       <p>
                           Quisque eu congue magna, ut dignissim urna. Integer eu eleifend ex, in tempor augue. 
                           Nulla in mollis felis. Nulla bibendum a ex eu eleifend.
@@ -68,8 +67,7 @@ const About = () => {
                       </p>
                   </div>
                   <div className="this-page-about-card">
-                    <BsEye className="this-page-about-icon"/>
-                      <h5>Visão</h5>
+                      <h5><BsEye className="this-page-about-icon"/>Visão</h5>
                       <p>
                           Quisque eu congue magna, ut dignissim urna. Integer eu eleifend ex, in tempor augue. 
                           Nulla in mollis felis. Nulla bibendum a ex eu eleifend.
@@ -77,8 +75,7 @@ const About = () => {
                       </p>
                   </div>
                   <div className="this-page-about-card">
-                    <GiShakingHands className="this-page-about-icon"/>
-                      <h5>Valores</h5>
+                      <h5><GiShakingHands className="this-page-about-icon"/>Valores</h5>
                       <p>
                           - Quisque eu congue magna; <br/>
                           - Ut dignissim urna; <br/>

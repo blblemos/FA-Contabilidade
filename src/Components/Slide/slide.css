@@ -6,7 +6,7 @@
 }
 
 .this-opacity{
-    padding-top: 49%;
+    padding-top: 47.5%;
     width: 100%;
     min-height: 600px;
     background-color: rgba(19, 41, 61, 0.9);
@@ -15,7 +15,7 @@
 }
 
 .carouselItem {
-    padding-top: 49%;
+    padding-top: 47.5%;
     width: 100%;
     min-height: 600px;
     background-size: 100% 100%;
@@ -40,6 +40,7 @@
     min-height: 40%; 
     transform: translateX(-13%);
     padding: 10px;
+    position: relative;
 }
 
 .this-text h3 {
@@ -80,4 +81,26 @@
     transform: translate(-50%, -50%);
     font-size: 20px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 1300px) {
+  .this-text {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .this-text {
+    min-width: 370px; 
+    padding: 10px;
+  }
+
+  .this-text h3 {
+    font-size: 33px;
+  }
+
+  .this-text p {
+    font-size: 20px;
+  }
+
 }

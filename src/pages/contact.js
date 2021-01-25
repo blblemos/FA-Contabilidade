@@ -20,9 +20,9 @@ const Contact = () => {
   var phoneError;
   var emailError;
   var messageError;
-	
+
   const handleSubmit = (event) => {
-      
+
   }
 
   useEffect(() => {
@@ -35,7 +35,6 @@ const Contact = () => {
         <div className="this-title-header">Contato</div>
         <div className="this-page-contact-container-content">
             <div className="this-page-contact-contents">
-                
                     <form className="this-page-contact-form" noValidate onSubmit={handleSubmit}>
                         <div className="this-page-contact-form-content">
                             <label className="this-page-contact-form-label">Nome</label>
@@ -86,9 +85,9 @@ const Contact = () => {
                             <button className="this-page-contact-form-btn" >
                                 Enviar Mensagem
                             </button>
+                            <div className="div-clear"></div>
                         </div>
                     </form>
-                
                 <div  className="this-page-contact-map">
                     <MapContainer
                         center={[-11.3071073,-41.8677124]}
