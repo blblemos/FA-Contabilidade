@@ -6,18 +6,16 @@
 }
 
 .this-opacity{
-    padding-top: 47.5%;
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-color: rgba(19, 41, 61, 0.9);
     position: absolute;
     z-index: 1;
 }
 
 .carouselItem {
-    padding-top: 47.5%;
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-size: 100% 100%;
 }
 

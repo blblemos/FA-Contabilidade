@@ -59,9 +59,10 @@
 
 @media screen and (max-width: 600px) {
   .this-container-request-contact p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .this-request-contact-btn {
-    font-size: 20px
+    font-size: 20px;
+    margin-left: 4px;
   }
 }
