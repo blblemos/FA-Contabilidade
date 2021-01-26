@@ -81,3 +81,25 @@
   font-size: 20px;
   font-weight: 300;
 }
+
+@media screen and (max-width: 1300px) {
+  .this-text {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .this-text {
+    min-width: 370px; 
+    padding: 10px;
+  }
+
+  .this-text h3 {
+    font-size: 33px;
+  }
+
+  .this-text p {
+    font-size: 20px;
+  }
+
+}
