@@ -41,7 +41,6 @@
     transform: translateX(-13%);
     padding: 10px;
     position: relative;
-    transition: 1s;
 }
 
 .this-text h3 {
