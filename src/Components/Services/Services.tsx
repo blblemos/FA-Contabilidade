@@ -9,9 +9,6 @@ import { MdMoneyOff } from 'react-icons/md';
 import { IoIosBusiness } from 'react-icons/io';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
     useEffect(() => {
@@ -20,7 +17,7 @@ const Services = () => {
     return (
         <div className="this-container-services">
             <div className="this-services-title">Serviços</div>
-            <div className="this-services-for-scroll">
+            <div className="this-services-for-8">
                 <div className="this-container-for-4" data-aos="fade-right">
                     <Link to='/services' className="this-services-content">
                         <ImCalculator className="this-services-icon"/>
