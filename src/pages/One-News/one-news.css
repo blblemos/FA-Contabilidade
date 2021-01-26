@@ -30,3 +30,9 @@
 .this-page-one-news-container-content a:hover {
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .this-page-one-news-container-content img {
+    height: 250px;
+  }
+}

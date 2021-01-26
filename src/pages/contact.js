@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import ThisHeader from '../Components/Header/header';
 import Footer from '../Components/Footer/footer';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker} from 'react-leaflet';
 import mapIcon from '../utils/mapIcons';
 import MaskedInput from 'react-maskedinput';
+import { FaMapMarkedAlt } from 'react-icons/fa';
 
 import './pages-CSS/titleHeader.css';
 import './pages-CSS/contact.css';
@@ -89,8 +90,9 @@ const Contact = () => {
                         </div>
                     </form>
                 <div  className="this-page-contact-map">
+                    <a target="_blank" rel="noopener noreferrer" href='https://www.google.com/maps/dir/?api=1&destination=-12.242236,-38.9509343' className="this-page-contact-map-routes"><p>Rotas<FaMapMarkedAlt className="this-page-contact-map-routes-icon"/></p></a>
                     <MapContainer
-                        center={[-11.3071073,-41.8677124]}
+                        center={[-12.242236,-38.9509343]}
                         zoom={15}
                         style={{width: '110%' , height: '110%'}}
                     >
@@ -99,12 +101,8 @@ const Contact = () => {
 
                         <Marker 
                               icon={mapIcon}
-                              position={[-11.3071073,-41.8677124]}
+                              position={[-12.242236,-38.9509343]}
                           >
-                              <Popup closeButton={false} minWidth={240} maxWidth={240} className="">
-                                  Teste
-                                  
-                              </Popup>
                           </Marker>
                     </MapContainer>
                 </div>

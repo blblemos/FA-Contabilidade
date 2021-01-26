@@ -116,4 +116,12 @@
   transition: 1s;
 }
 
+@media screen and (max-width: 500px) {
+  .this-content-news {
+    padding: 0 10px;
+  }
 
+  .this-news-content-title {
+    font-size: 17px;
+  }
+}

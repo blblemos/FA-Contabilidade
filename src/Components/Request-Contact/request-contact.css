@@ -27,3 +27,41 @@
 .this-request-contact-btn:hover {
   color: #247ba0;
 }
+
+@media screen and (max-width: 1130px) {
+  .this-container-request-contact p {
+    font-size: 30px;
+  }
+
+  .this-request-contact-btn {
+    font-size: 50px
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .this-container-request-contact p {
+    font-size: 25px;
+  }
+
+  .this-request-contact-btn {
+    font-size: 40px
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .this-container-request-contact p {
+    font-size: 20px;
+  }
+  .this-request-contact-btn {
+    font-size: 30px
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .this-container-request-contact p {
+    font-size: 16px;
+  }
+  .this-request-contact-btn {
+    font-size: 20px
+  }
+}

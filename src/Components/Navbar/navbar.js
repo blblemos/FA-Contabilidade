@@ -60,19 +60,30 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="this-nav-text">
-                <Link to='/about' activeStyle >Sobre Nós</Link>
+              <Link className="this-navLink" to='/services' activeStyle>
+                Serviços
+              </Link>
             </li>
             <li className="this-nav-text" >
-              <Link to='/services' activeStyle>Serviços</Link>
+              <Link className="this-navLink" to='/about' activeStyle>
+                Sobre Nós
+              </Link>
             </li>
             <li className="this-nav-text" >
-              <Link to='/news' activeStyle>Notícias</Link>
+              <Link className="this-navLink" to='/news' activeStyle>
+                Notícias
+              </Link>
+            </li>
+            <li className="this-nav-text" >
+              <Link className="this-navLink" to='/contact' activeStyle>
+                Contato
+              </Link>
             </li>
             <li className="this-nav-text">
-              <a href='https://onvio.com.br/#/'>Portal do Cliente</a>
+              <a href='https://onvio.com.br/#/' className="this-navLink-btn"><p>Portal do Cliente</p></a>
             </li>
             <li className="this-nav-text" >
-              <Link to='/contact' activeStyle>Contato</Link>
+              <a href='https://onvio.com.br/#/' className="this-navLink-btn this-navLink-btn-2"><p>Portal do Empregado</p></a>
             </li>         
           </ul>
         </nav>

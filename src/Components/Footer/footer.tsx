@@ -15,13 +15,13 @@ const Footer = () => {
             <div className="this-footer-contact">
               <div className="this-footer-address">
                 <FaMapMarkedAlt className="this-footer-content-icon"/>
-                <p>Rua Felinto Marques Cerqueira, 275, Capuchinhos<br/>
-                  CEP: 44076-040  - Feira de Santana - Bahia 
+                <p>Rua Coronel José Pinto dos Santos, 843, São João<br/>
+                  CEP: 440514-00  - Feira de Santana - Bahia 
                 </p>
               </div>
               <div className="this-footer-phone">
                 <FaPhone className="this-footer-content-icon"/>
-                <p>(73) 8832-2103</p>
+                <p>(75) 4101-3130</p>
               </div>
               <div className="this-footer-mail">
                 <GiMailbox className="this-footer-content-icon"/>

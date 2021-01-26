@@ -76,7 +76,7 @@ const News = () =>  {
                 </div>
             </div>
           </div>
-          <div className=" this-slide-news">
+          <div className="this-slide-news">
             <div className="this-content-news">
               <div className=" this-news-content-img">
                   <div className=" this-news-data">

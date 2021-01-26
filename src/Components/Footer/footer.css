@@ -16,7 +16,7 @@
   width: 50%;
   min-width: 300px;
   height: 25%;
-  min-height: 150px;
+  min-height: 120px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -25,13 +25,13 @@
   background-size: 100% 100%;
 }
 
-this-footer-container-contact {
+.this-footer-container-contact {
   width: 50%;
 }
 
 .this-footer-contact {
   width: 100%;
-  border-left: 3px solid #e8f1f2;
+  border-left: 2px solid #e8f1f2;
   color: #e8f1f2;
   padding: 30px 30px;
   position: relative;
@@ -43,7 +43,7 @@ this-footer-container-contact {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .this-footer-content-icon {
@@ -68,7 +68,7 @@ this-footer-container-contact {
 }
 
 .this-container-sub-footer a{
-  font-size: 20px;
+  font-size: 12px;
   color: #e8f1f2;
   margin-left: 10px;
 }
@@ -83,21 +83,24 @@ this-footer-container-contact {
   }
 
   .this-footer-logo-img {
-    position: relative;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: translate(0 , 0);
-    margin: 0 auto;
+    display: none;
   }
 
   .this-footer-container-contact {
-    margin: 20px auto 10px auto;
+    width: 100%;
   }
 
   .this-footer-contact {
     border-left: none;
-    border-top: 3px solid #e8f1f2;
-    width: 100%;
+    margin-top: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .this-footer-address,
+  .this-footer-phone,
+  .this-footer-mail {
+    margin: 0 auto;
+    width: 70%;
   }
 }
