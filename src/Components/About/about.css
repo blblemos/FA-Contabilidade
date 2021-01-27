@@ -105,3 +105,10 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .this-about-title {
+    width: 250px;
+    font-size: 40px;
+  }
+}

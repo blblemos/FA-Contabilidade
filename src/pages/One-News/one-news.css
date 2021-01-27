@@ -35,4 +35,8 @@
   .this-page-one-news-container-content img {
     height: 250px;
   }
+
+  .this-page-one-news-container-content h4{
+      font-size: 20px;
+  }
 }

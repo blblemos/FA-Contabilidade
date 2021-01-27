@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/navbar';
+import Whatsapp from './Components/Whatsapp/Whatsapp';
 import { BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
@@ -13,6 +14,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Whatsapp/>
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />

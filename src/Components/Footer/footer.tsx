@@ -1,7 +1,9 @@
 import "./footer.css";
 import React from 'react';
 import { GiPadlock, GiMailbox } from 'react-icons/gi';
-import { FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
+import { IoLogoWhatsapp } from 'react-icons/io';
+import { RiInstagramFill } from 'react-icons/ri';
+import { FaMapMarkedAlt, FaPhone, FaFacebookSquare } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -28,6 +30,11 @@ const Footer = () => {
                 <p>
                   contato@fabriciosodre.com.br
                 </p>
+              </div>
+              <div className="this-footer-social">
+                <a target="blank" href="https://www.instagram.com/fabricioscontabilidade/"><RiInstagramFill className="this-footer-content-icon"/></a>
+                <a target="blank" href="https://www.facebook.com/fabriciosodrecontabilidade"><FaFacebookSquare className="this-footer-content-icon"/></a>
+                <a target="blank" href="https://wa.me/557541013130?text=Olá!%20Venho%20pelo%20site%20e%20preciso%20de%20um%20contador!"><IoLogoWhatsapp className="this-footer-content-icon"/></a>
               </div>
             </div>
           </div>

@@ -101,5 +101,19 @@
   .this-text p {
     font-size: 20px;
   }
+}
 
+@media screen and (max-width: 390px) {
+  .this-text {
+    min-width: 260px; 
+    margin-left: 5px;
+  }
+
+  .this-text h3 {
+    font-size: 30px;
+  }
+
+  .this-text p {
+    font-size: 18px;
+  }
 }

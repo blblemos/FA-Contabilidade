@@ -7,10 +7,8 @@ import { Link } from "react-router-dom";
 
 const News = () =>  {
     var settings = {
-      className: "center this-container-news-slide",
-      centerPadding: "60px",
-      centerMode: true,
-      infinite: true,
+      className: " center this-container-news-slide",
+      infinite: false,
       slidesToShow: 3,
       speed: 500,
       focusOnSelect: true,
@@ -20,13 +18,15 @@ const News = () =>  {
           breakpoint: 1024,
           settings: {
             slidesToShow: 2,
-            infinite: true
+            dots: true,
+            infinite: false
           }
         },
         {
-          breakpoint: 800,
+          breakpoint: 650,
           settings: {
             slidesToShow: 1,
+            dots: true,
             initialSlide: 2
           }
         }
