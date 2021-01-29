@@ -10,3 +10,9 @@
     height: 70px;
     text-transform: uppercase;
 }
+
+.this-title-header p {
+    width: 10%;
+    min-width: 100px;
+    border-bottom: 2px solid #e8f1f2;
+  }

@@ -55,7 +55,7 @@ const OneNews = () => {
         <p><span >Com a entrada em vigor da LGPD, quando se trata de exames de saúde e prontuários médicos, os funcionários têm direito á privacidade.</span></p>
         <p><span >Todas as informações médicas sobre um determinado funcionário, incluindo resultados de verificações diárias de temperatura, devem ser armazenadas em um arquivo separado do arquivo pessoal do funcionário para manter a confidencialidade.</span></p>
         <p><span >Se houver suspeita ou confirmação de que um funcionário tem Covid-19, informe todos os funcionários que foram potencialmente expostos e instrua-os a ficar em casa por 14 dias sem revelar a identidade do indivíduo infectado.&nbsp;</span></p>
-        <div><i>Fonte: Site - Jornal Contábil<br/><a href="https://www.jornalcontabil.com.br/como-manter-a-seguranca-durante-a-volta-dos-colaboradores-ao-ambiente-de-trabalho/">https://www.jornalcontabil.com.br/como-manter-a-seguranca-durante-a-volta-dos-colaboradores-ao-ambiente-de-trabalho/</a></i></div>
+        <div><i>Fonte: Site - Jornal Contábil<br/><a target="blank" href="https://www.jornalcontabil.com.br/como-manter-a-seguranca-durante-a-volta-dos-colaboradores-ao-ambiente-de-trabalho/">https://www.jornalcontabil.com.br/como-manter-a-seguranca-durante-a-volta-dos-colaboradores-ao-ambiente-de-trabalho/</a></i></div>
       </div>
       <RequestContact/>
       <Footer/>

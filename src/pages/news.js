@@ -14,7 +14,10 @@ const PageNews = () => {
   return (
     <div className="this-page-news-container">
       <ThisHeader/>
-      <div className="this-title-header">Notícias</div>
+      <div className="this-title-header">
+        Notícias
+        <p></p>
+      </div>
       <div className="this-page-news-container-content">
         <div className="this-page-news-contents">
           <div className="this-page-news-content">

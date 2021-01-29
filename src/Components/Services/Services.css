@@ -65,6 +65,10 @@
   display: none;
 }
 
+.this-services-content:hover h3:nth-of-type(2) {
+  display: block;
+}
+
 .this-services-content:nth-of-type(1) {
   margin-left: 0;
 }
@@ -79,6 +83,10 @@
   transition: 500ms;
 }
 
+.this-actived {
+  display: none;
+}
+
 .this-services-content h3 {
   font-size: 15px;
   min-width: 200px;
@@ -90,6 +98,11 @@
   transform: translateX(-50%);
   text-align: center;
   transition: 500ms;
+}
+
+.this-services-content h3:nth-of-type(2) {
+  display: none;
+  color: #e8f1f2;
 }
 
 .this-services-content p {
@@ -110,6 +123,12 @@
 .this-services-content:hover p {
   transition: 500ms;
   display: block;
+}
+
+.this-services-content:hover .this-actived {
+  display: block;
+  color: #e8f1f2;
+  transition: 1s;
 }
 
 .this-services-icon-more {

@@ -22,65 +22,52 @@ const Services = () => {
                     <Link to='/services' className="this-services-content">
                         <ImCalculator className="this-services-icon"/>
                         <h3>Contabilidade</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                     <Link to='/services' className="this-services-content">
                         <IoIosBusiness className="this-services-icon"/>
                         <h3>Abertura De Empresa</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                     <Link to='/services' className="this-services-content">
                         <GiLion className="this-services-icon"/>
                         <h3>Fiscal</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                     <Link to='/services' className="this-services-content">
                         <GiTakeMyMoney className="this-services-icon"/>
                         <h3>Financeiro</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                 </div>
                 <div className="this-container-for-4" data-aos="fade-left">
                     <Link to='/services' className="this-services-content">
                         <FaUsers className="this-services-icon"/>
                         <h3>Departamento Pessoal e RH</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                     <Link to='/services' className="this-services-content">
                         <FaRegHandshake className="this-services-icon"/>
                         <h3>Societário</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                     <Link to='/services' className="this-services-content">
                         <MdMoneyOff className="this-services-icon"/>
                         <h3>Recuperação de Créditos</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac luctus risus. 
-                            Proin euismod fermentum neque, eget sodales dolor vestibulum vitae.
-                        </p>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                     <Link to='/services' className="this-services-content">
                         <FiArrowRightCircle className="this-services-icon"/>
                         <h3>Saiba Mais</h3>
-                        <FiArrowRightCircle className="this-services-icon-more"/>
+                        <h3>Saiba Mais</h3>
+                        <FiArrowRightCircle className="this-services-icon this-actived"/>
                     </Link>
                 </div>
             </div>

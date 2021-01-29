@@ -15,7 +15,10 @@ const About = () => {
   return (
     <div className="this-page-about-container">
       <ThisHeader/>
-      <div className="this-title-header">Sobre Nós</div>
+      <div className="this-title-header">
+        Sobre Nós
+        <p></p>
+      </div>
       <div className="this-page-about-container-content">
           <div className="this-page-about-contents">
             <div className="this-page-about-text">

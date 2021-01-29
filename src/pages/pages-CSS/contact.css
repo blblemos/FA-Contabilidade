@@ -105,14 +105,18 @@
   background-color: #13293df5
 }
 
-.this-page-contact-map {
+.this-page-container-contact-map {
   width: 58%;
   margin-left: 2%;
-  height: 550px;
+}
+
+.this-page-contact-map {
+  height: 90%;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
   border: 2px solid #13293d;
+  background-color: #247ba0;
 }
 
 .this-page-contact-map-routes {
@@ -154,6 +158,11 @@
     margin: 0 auto;
   }
 
+  .this-page-container-contact-map {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .this-page-contact-map {
     width: 90%;
     top: 0;
@@ -165,4 +174,10 @@
   .this-page-contact-map-routes {
     font-size: 18px;
   }
+}
+
+.this-page-contact-success{
+  font-size: 20px;
+  color: green;
+  font-size: 16px;
 }
