@@ -1,13 +1,16 @@
 .divSlide {
   width: 100%;
+  height: 100vh;
+  max-height: 100rem;
   position: relative;
   top: 0;
   left: 0;
 }
 
 .this-opacity{
-  padding-top: 49%;
   width: 100%;
+  height: 100vh;
+  max-height: 100rem;
   min-height: 600px;
   background-color: rgba(19, 41, 61, 0.9);
   position: absolute;
@@ -15,8 +18,9 @@
 }
 
 .carouselItem {
-  padding-top: 49%;
   width: 100%;
+  height: 100vh;
+  max-height: 100rem;
   min-height: 600px;
   background-size: 100% 100%;
 }
@@ -33,13 +37,14 @@
 }
 
 .this-text {
-  margin-top: 800px;
   margin-bottom: 70px;
   margin-left: 20px;
   max-width: 50%; 
   min-height: 40%; 
   transform: translateX(-13%);
   padding: 10px;
+  position: relative;
+  top: 35vh;
 }
 
 .this-text h3 {
@@ -64,22 +69,29 @@
   position: relative;
   cursor: pointer;
   transition: 1s;
-  color: white;
+  overflow: hidden;
+}
+
+.slide-btn a{
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.slide-btn a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .slide-btn:hover {
   background-color: #13293d;
   transition: 1s;
-}
-
-.slide-btn p {
-  position: absolute;
-  top: 4px;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  font-weight: 300;
 }
 
 @media screen and (max-width: 1300px) {

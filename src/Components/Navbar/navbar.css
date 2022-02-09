@@ -46,7 +46,7 @@ Nav.this-actived {
 }
 
 .this-navLink-btn {
-  width: 152px;
+  width: 10rem;
   height: 35px;
   border-radius: 40px;
   background-color: transparent;
@@ -54,16 +54,20 @@ Nav.this-actived {
   text-decoration: none;
   color: #fff;
   display: flex;
-  align-items: center;
-  text-decoration: none;
+  line-height: 35px;
+  text-align: center;
   padding: 0 1rem;
-  font-size: 16px;
+  font-size: 1rem;
   transition: 500ms;
   margin-top: 22px;
 }
 
+.this-navLink-btn p{
+  width: 100%;
+}
+
 .this-navLink-btn-2 {
-  width: 185px;
+  width: 12rem;
   margin-left: 10px;
 }
 

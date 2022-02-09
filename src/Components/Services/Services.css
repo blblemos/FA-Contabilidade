@@ -44,6 +44,15 @@
   box-shadow: 10px 13px 34px -11px rgba(19,41,61,1);
 }
 
+.this-services-content-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  height: 50%;
+}
+
 .this-services-content:hover {
   background-color: #13293d;
   border: 1px solid #e8f1f2;
@@ -75,7 +84,7 @@
 
 .this-services-icon {
   position: absolute;
-  top: 25%;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 56px;
@@ -93,7 +102,7 @@
   font-weight: 300;
   color: #13293d;
   position: absolute;
-  top: calc(30% + 66px);
+  top: calc(15% + 66px);
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

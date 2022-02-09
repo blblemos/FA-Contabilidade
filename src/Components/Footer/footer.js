@@ -41,7 +41,6 @@ const Footer = () => {
       </div>
       <div className="this-container-sub-footer"> 
         ® 2021 Todos os direitos reservados. Desenvolvido por blblemos17@gmail.com 
-        <Link to='/contact'><GiPadlock/></Link> 
       </div>
     </div>
   );
